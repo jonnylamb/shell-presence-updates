@@ -1,0 +1,12 @@
+shell-presence-updates extension
+================================
+
+I wrote this because in GNOME Shell 3.10 support was removed for updating your
+IM presence when the session went to idle (see d802416dae) and I wanted this
+functionality back. It turns out all extensions get disabled when we hit the
+lock screen anyway so this can't be fixed in an extension. Shame.
+
+Anyway as a result I had this half working extension with no future,
+so I thought I'd put it online in case there's a way to get it working
+at some point. I didn't want to write yet another daemon but I guess
+that's what I'm going to be doing.

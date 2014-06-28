@@ -1,0 +1,7 @@
+{
+    "shell-version": ["3.12"],
+    "uuid": "shell-presence-updates@shell-extensions.jonnylamb.com",
+    "name": "IM Presence Updates",
+    "description": "Changes your status depending on your session status changes.",
+    "url": "http://github.com/jonnylamb/shell-presence-updates"
+}
