@@ -49,9 +49,9 @@ class Updater(object):
         log('account manager prepared')
 
         presence = manager.get_most_available_presence()
-        self.presence_changed_cb(*presence)
+        self.presence_changed_cb(manager, *presence)
 
-    def presence_changed_cb(self, presence, status, message):
+    def presence_changed_cb(self, manager, presence, status, message):
         triplet = (presence, status, message)
 
         log('presence changed: %s' % str(triplet))
